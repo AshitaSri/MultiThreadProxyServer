@@ -20,7 +20,7 @@ This project implements a multi-threaded proxy server in C, inspired by [this Pr
 This project demonstrates how a proxy server handles client requests using multi-threading and caching to enhance performance. 
 
 ### Basic Working Flow:  
-![Proxy Server Flow](https://github.com/Lovepreet-Singh-LPSK/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG)
+<img width="806" alt="Screenshot 2024-12-01 at 8 35 10 AM" src="https://github.com/user-attachments/assets/5813dab0-e228-4a92-811c-0ef0b39d368d">
 
 ### Multi-threading Implementation:
 - **Semaphore** is used instead of `pthread_join()` and condition variables for thread synchronization.  
